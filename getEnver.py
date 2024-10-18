@@ -9,3 +9,4 @@ TOKEN = os.environ['TOKEN']
 OWNER = os.environ['OWNER']
 REPO = os.environ['REPO']
 PATH = os.environ['PATHs']
+print(PATH)

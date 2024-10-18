@@ -2,7 +2,7 @@ import getEnver as v
 import requests
 import base64
 
-url = f'https://api.github.com/repos/{v.OWNER}/scoremanager5/contents/Database/ompooscores.db'
+url = f'https://api.github.com/repos/{v.OWNER}/scoremanager5/contents/Database/archive/ompooscores.db'
 
 headers = {
     "Accept": "application/vnd.github+json",
