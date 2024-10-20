@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from schema import (
+from database.schema import (
     Book, Song, Lyricist, SongWriter, Arranger, Artist,
     SongLyricistAssociation, SongWriterAssociation, 
     SongArrangerAssociation, SongArtistAssociation
