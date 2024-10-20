@@ -8,5 +8,6 @@ load_dotenv('.env')
 TOKEN = os.environ['TOKEN']
 OWNER = os.environ['OWNER']
 REPO = os.environ['REPO']
-PATH = os.environ['PATHs']
-print(PATH)
+PATH = os.environ['filePATH']
+COMMITER = os.environ['COMMITER']
+COMMITER_EMAIL = os.environ['COMMITER_EMAIL']
